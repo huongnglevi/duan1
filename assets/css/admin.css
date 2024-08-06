@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+    display:flex;
+    background-color: #EAEDF0;
+    font-size: 24px;
+    
+    padding:0;
+
+}
+.admin__aside-title{
+    background-color: #F2F7FC;
+    height:103px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.admin__aside{
+    margin-right: 20px;
+    width:345px;
+    background-color: #fafbfc;
+    box-shadow: 3px 0 0 rgba(0,0,0,0.25);
+    font-size:24px ;
+
+}
+.admin__aside-nav ul{
+    display:flex;
+    flex-direction: column;
+    margin:10px 0;
+    padding-left:0;
+}
+.admin__aside-nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width:100%;
+    padding: 5px 0 5px 15px;
+
+}
+
+.active_color{
+    background-color: #c3c4c6;
+
+}
+
+.admin__aside-nav ul li a{
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+    display:inline-block;
+    width:100%;
+}
+.admin__article{    
+    flex:1;
+}
+.admin__article__header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 103px;
+    align-items: center;
+    box-shadow: 0 3px 0 rgba(0, 0,0,0.25);
+    margin:0 0 20px 0;
+    font-size: 24px;
+    background-color: #FAFBFC;
+}
+.admin__article__header input{
+    border-radius: 10px;
+    padding: 5px 20px;
+    
+}
+.admin__article-main button{
+    background-color: #E0F3FF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    cursor:pointer;
+}
+td{
+    padding: 5px 10px;
+}
+.admin__article__header i{
+    margin: 0 10px;
+}
+/* css add product */
+.add__product{
+    padding: 20px;
+    margin: 20px 0;
+}
+.add__product .form-group{
+    margin: 10px 0;
+}
+.add__product .form-group input[type="text"]{
+    width: 70%;
+    
+}
+.add__product .form-group input{
+    height: 30px;
+    /* padding: 10px 20px; */
+    font-size: 24px;
+}
+.add__product .form-group p{
+    margin: 10px 0;
+}
+.btn___addsp{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border:none; 
+    cursor: pointer;
+}
+.list__product{
+    margin: 20px 0;
+    padding: 10px 40px;
+
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color:#fff;
+}

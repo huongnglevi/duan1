@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100vh;
+}
+.donhang_nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+.donhang_nav a{
+    text-decoration: none;
+    text-transform: none;
+    color: #000;
+    font-size: 24px; 
+}
+.donhang_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 17%;
+    padding: 0 0 5px 0;
+}
+.duongkeduoi{
+    border-bottom: 2px solid blue;
+}
